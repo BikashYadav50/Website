@@ -1,4 +1,3 @@
-// Function to load external HTML
 function loadHTML(id, url) {
     fetch(url)
         .then((response) => response.text())
@@ -7,6 +6,7 @@ function loadHTML(id, url) {
         });
 }
 
-// Load Header and Footer
 loadHTML("header", "header.html");
 loadHTML("footer", "footer.html");
+
+
